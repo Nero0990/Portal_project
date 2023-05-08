@@ -5,7 +5,7 @@
 Как запустить этот проект на новом компьютере:
 Клонируйте этот репозиторий:
 Копировать код
-# git clone https://github.com/your-username/corporate-portal.git
+# git clone https://github.com/Nero0990/Portal_project.git
 
 Измените каталог на папку проекта:
 # cd corporate-portal
@@ -39,4 +39,4 @@
 
 Используемые библиотеки:
 -- Django - Python Web Framework
--- psycopg2-binary - PostgreSQL базы данных для Python
+-- psycopg2-binary - PostgreSQL базы данных для Python# Portal_project
