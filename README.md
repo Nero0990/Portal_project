@@ -67,3 +67,4 @@ DATABASES = {
 Используемые библиотеки:
 -- Django - Python Web Framework
 -- psycopg2-binary - PostgreSQL базы данных для Python# Portal_project
+16-05-2023
