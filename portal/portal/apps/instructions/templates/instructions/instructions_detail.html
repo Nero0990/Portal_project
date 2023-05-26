@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <title>{{ question.text }}</title>
+</head>
+
+<body>
+    <h1>Ссылка на инструкцию</h1>
+    <h3>Почта</h3><p>{{ instruction.link }}</p>
+    <h3>Ссылка</h3><p>{{ instruction.file_link }}</p>
+    <div class="instruction">
+        <a href="http://127.0.0.1:8000/instructions/"><h4>Вернуться к списку инструкций</h4></a><br>
+        <a href="http://127.0.0.1:8000"><h4>Вернуться на главную страницу</h4></a>
+    </div>
+</body>
+</html>

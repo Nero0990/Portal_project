@@ -9,4 +9,5 @@ class Instruction(models.Model):
     file_link = models.URLField()
 
     def __str__(self):
-        return self.topic
+        return f'{"Тема :", self.topic} {"Автор :",self.author} {"Дата :",self.publish_date} {"Ссылка :",self.link} {"Файл :",self.file_link}'
+        

@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <title>Список вопросов</title>
+</head>
+
+<body>
+    <div class="block">
+        <h1>Список вопросов</h1>
+        {% for question in data %}
+        <h3>"Вопрос"</h3><p><a class="link" href="{% url 'question_detail' question_id=question.id %}">{{ question.text }}</a></p>
+        {% endfor %}<br>
+    </div>
+    
+    <div class="questions">
+        <a class="link2" href="http://127.0.0.1:8000"><h4>Вернуться на главную страницу</h4></a>
+    </div>
+</body>
+</html>
