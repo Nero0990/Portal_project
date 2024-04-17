@@ -8,5 +8,5 @@ Pillow==9.4.0
 platformdirs==3.5.0
 psycopg2-binary==2.9.6
 pygame==2.2.0
-sqlparse==0.4.4
+sqlparse==0.5.0
 virtualenv==20.23.0
